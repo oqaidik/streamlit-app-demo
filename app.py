@@ -11,7 +11,7 @@ def go_to_sheets():
 
 # Navigation
 if st.session_state.page == 'home':
-    st.title("Bienvenue dans mon app 🎈")
+    st.title("Bienvenue dans mon app !")
     st.write("Cliquez sur le bouton pour lire les données depuis Google Sheets.")
     if st.button("Voir Google Sheets"):
         go_to_sheets()
